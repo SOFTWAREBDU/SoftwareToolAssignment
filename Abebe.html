@@ -1,17 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
     <title>Assignment</title>
+    <style>
+        nav{
+            background-color: antiquewhite;
+            
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+        .logo{
+            margin-left: 100px;
+            background-color: lightblue;
+            width: 50px;
+            border-radius: 50%;
+        }
+        ul{
+            
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+
+        }
+        li{
+            display: flex;
+            margin-right: 50px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .header{
+            min-height: 400px;
+            display: flex;
+            flex-direction: row;
+        }
+        button{
+            border-radius: 7px;
+        }
+        .left{
+            min-width: 50%;
+            background-color: azure;
+            border-right: 10px;
+            text-align: center;
+        }
+        .right{
+            background-color: rgb(194, 194, 91);
+            width: 50%;
+            text-align: center;
+        }
+        .footer{
+            min-height: 50px;
+            background-color: black;
+            text-align: center;
+            color: white;
+        }
+    </style>
 </head>
 <body>
+    <nav>
+        <div class="logo">LOGO</div>
+       <div class="container">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">SEERVICE</a></li>
+        </ul>
+       </div>
+    </nav>
+    <div class="header">
+        <div class="left">
+            <h1>Left div</h1>
+            <button>Login</button>
+        </div>
+        <div class="right">
+            <h1>Right div</h1>
+            <button>Logout</button>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy;CopyRight 2022</p>
+    </div>
     <p>abebe commited </p>
    <p>
        Lorem ipsum dolor sit
-        amet consectetur, adipisicing
-         elit. Ducimus tempore nihil
-          repellendus facere quos doloribus 
-          dolore nobis suscipit voluptatum tempora. Itaque et veniam unde neque laborum, facilis eum officia facere.
+       amet consectetur, adipisicing
+       elit. Ducimus tempore nihil
+       repellendus facere quos doloribus 
+       dolore nobis suscipit voluptatum tempora. Itaque et veniam unde neque laborum, facilis eum officia facere.
    </p>
 </body>
 </html>
